@@ -1,0 +1,28 @@
+{
+  "name": "mini-webpack",
+  "version": "0.0.1",
+  "description": "how to implementation webpack",
+  "main": "./lib/index.js",
+  "repository": {
+    "git": "git",
+    "author": "Rain120",
+    "url": "git@github.com:Rain120/mini-webpack.git"
+  },
+  "homepage": "https://github.com/Rain120/mini-webpack",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "mini-webpack"
+  ],
+  "author": "Rain120",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/parser": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/traverse": "^7.9.6",
+    "tapable": "^1.1.3"
+  }
+}
