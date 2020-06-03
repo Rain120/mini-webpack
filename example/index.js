@@ -1,3 +1,7 @@
 import name from './name.js';
 
-console.log(`Hello ${name}`);
+const welcome = `Hello everyone, I'm ${name}`;
+
+console.log(welcome);
+
+document.querySelector('.root').innerHTML = welcome;

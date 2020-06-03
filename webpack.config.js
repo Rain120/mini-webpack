@@ -1,4 +1,10 @@
 const path = require('path');
+const {
+  EntryOptionPlugin,
+  AfterPlugins,
+  RunPlugin,
+  DonePlugin,
+} = require('./plugins');
 
 module.exports = {
     mode: 'development',
@@ -6,5 +12,11 @@ module.exports = {
     output: {
         filename: 'bundle.js',
         path: path.resolve('./dist'),
-    }
+    },
+    plugins: [
+      new EntryOptionPlugin(),
+      new AfterPlugins(),
+      new RunPlugin(),
+      new DonePlugin(),
+    ]
 }
