@@ -1,22 +1,20 @@
 const path = require('path');
-const {
-  EntryOptionPlugin,
-  AfterPlugins,
-  RunPlugin,
-  DonePlugin,
-} = require('./plugins');
+const UsePlugin = require('./plugins');
 
 module.exports = {
     mode: 'development',
     entry: './example/index.js',
     output: {
-        filename: 'bundle.js',
-        path: path.resolve('./dist'),
+      filename: 'bundle-v2.js',
+      path: path.resolve('./dist'),
     },
+    // module: {
+    //   rules: [{
+    //     test: /\.css/,
+    //     use: [require('./loaders/style-loader')]
+    //   }]
+    // },
     plugins: [
-      new EntryOptionPlugin(),
-      new AfterPlugins(),
-      new RunPlugin(),
-      new DonePlugin(),
+      new UsePlugin(),
     ]
 }

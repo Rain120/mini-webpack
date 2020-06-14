@@ -4,13 +4,13 @@
 
 <div align="center">
 
-[![GitHub watchers](https://img.shields.io/github/watchers/rain120/vuepress-docs-template?style=social)](https://github.com/Rain120/mini-webpack/watchers)
-[![STAR](https://img.shields.io/github/stars/rain120/vuepress-docs-template?style=social)](https://github.com/Rain120/mini-webpack/stargazers) [![FORK](https://img.shields.io/github/forks/rain120/vuepress-docs-template?style=social)](https://github.com/Rain120/mini-webpack/network/members)
+[![GitHub watchers](https://img.shields.io/github/watchers/rain120/mini-webpack?style=social)](https://github.com/Rain120/mini-webpack/watchers)
+[![STAR](https://img.shields.io/github/stars/rain120/mini-webpack?style=social)](https://github.com/Rain120/mini-webpack/stargazers) [![FORK](https://img.shields.io/github/forks/rain120/mini-webpack?style=social)](https://github.com/Rain120/mini-webpack/network/members)
 
-[![ISSUES](https://img.shields.io/github/issues/rain120/vuepress-docs-template?style=flat-square)](https://github.com/Rain120/mini-webpack/issues) [![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/rain120/vuepress-docs-template?style=flat-square)](https://github.com/Rain120/mini-webpack/pulls) [![COMMIT](https://img.shields.io/github/last-commit/rain120/vuepress-docs-template?style=flat-square)](https://github.com/Rain120/mini-webpack/commits/master)
+[![ISSUES](https://img.shields.io/github/issues/rain120/mini-webpack?style=flat-square)](https://github.com/Rain120/mini-webpack/issues) [![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/rain120/mini-webpack?style=flat-square)](https://github.com/Rain120/mini-webpack/pulls) [![COMMIT](https://img.shields.io/github/last-commit/rain120/mini-webpack?style=flat-square)](https://github.com/Rain120/mini-webpack/commits/master)
 
-![LANGUAGES](https://img.shields.io/github/languages/top/rain120/vuepress-docs-template?style=flat-square)
-[![VERSION](https://img.shields.io/github/package-json/v/rain120/vuepress-docs-template?style=flat-square)](https://github.com/Rain120/mini-webpack/blob/master/package.json) [![LICENSE](https://img.shields.io/github/license/rain120/vuepress-docs-template?style=flat-square)](https://github.com/Rain120/mini-webpack/blob/master/LICENSE)
+![LANGUAGES](https://img.shields.io/github/languages/top/rain120/mini-webpack?style=flat-square)
+[![VERSION](https://img.shields.io/github/package-json/v/rain120/mini-webpack?style=flat-square)](https://github.com/Rain120/mini-webpack/blob/master/package.json) [![LICENSE](https://img.shields.io/github/license/rain120/mini-webpack?style=flat-square)](https://github.com/Rain120/mini-webpack/blob/master/LICENSE)
 
 </div>
 
@@ -30,7 +30,7 @@ Achieve a mini webpack for build files.
 ## 🔨 Usage
 
 ```sh
-npm run link
+npm link
 
 pack
 ```
