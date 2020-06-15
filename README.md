@@ -23,11 +23,17 @@ Welcome to how to achieve the Mini Webpack.
 <!-- ⌨️ To be Continue... -->
 [Demo](https://rain120.github.io/mini-webpack/example/index.html)
 
+[How to Achieve Webpack (从零实现一个 Webpack)](https://rain120.github.io/study-notes/#/notes/webpack/mini-webpack)
+
 ## ✍ Why am I doing this?
 
 Achieve a mini webpack for build files.
 
 ## 🔨 Usage
+
+### It was cannot use temporarily.
+
+Because I have not achieved it yet. Please waiting.
 
 ```sh
 npm link
@@ -44,6 +50,8 @@ We welcome all contributions. You can submit any ideas as [pull requests](https:
 ## 🔗 Links
 
 - [Demo](https://rain120.github.io/mini-webpack/example/index.html)
+
+- [How to Achieve Webpack (从零实现一个 Webpack)](https://rain120.github.io/study-notes/#/notes/webpack/mini-webpack)
 
 ## 👨‍🏭 Author
 
