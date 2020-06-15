@@ -27,8 +27,7 @@
   "lint-staged": {
     "lib": [
       "npm run eslint",
-      "npm run prettier",
-      "git add"
+      "npm run prettier"
     ]
   },
   "husky": {
